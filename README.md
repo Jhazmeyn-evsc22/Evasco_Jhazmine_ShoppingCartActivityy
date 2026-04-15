@@ -19,3 +19,4 @@ This is my project/quiz 2-3 as a BSIT student.
 - README.md
 
 ## AI Usage
+I used AI to help me understand how to structure my C# shopping cart system, especially in using classes, arrays of object, and validation logic. I ask question such as; How to create a shopping cart system using C#. How to validate user input usind int.TryParse() and, How to  prevent duplicate items in cart. 
