@@ -1,0 +1,46 @@
+using System;
+
+class Product
+{
+    public int Id;
+    public string Name;
+    public double Price;
+    public int RemainingStock;
+
+    public void DisplayProduct()
+    {
+        Console.WriteLine(₱"{Id}. {Name} - ₱{Price} (Stock: {RemainingStock})");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Product[] products = new Product[]
+        {
+            new Product { Id = 1, Name = "Hersheys", Price = 300, RemainingStock = 35  },
+            new Product { Id = 2, Name = "Kitkat", Price = 100, RemainingStock = 24  },
+            new Product { Id = 3, Name = "Toblerone", Price = 190, RemainingStock = 10 },
+            new Product { Id = 4, Name = "Snickers", Price = 150, RemainingStock = 36 }
+        };
+
+        Console.WriteLine("=== STORE MENU ===");
+        foreach (var p in products)
+        {
+            p.DisplayProduct();
+        }
+
+        Console.Write("Enter product number: ");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Enter quantity: ");
+        int qty = Convert.ToInt32(Console.ReadLine());
+
+        Product selected = products[choice - 1];
+        double total = selected.Price * qty;
+
+        Console.WriteLine(₱"You bought {qty} x {selected.Name}");
+        Console.WriteLine(₱"Total: ₱{total}");
+    }
+}
