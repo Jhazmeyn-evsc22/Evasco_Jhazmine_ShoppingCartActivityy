@@ -22,4 +22,12 @@ This is my project/quiz 2-3 as a BSIT student.
 - Final commit
 
 ## AI Usage
-I used AI to help me understand how to structure my C# shopping cart system, especially in using classes, arrays of object, and validation logic. I ask question such as; How to create a shopping cart system using C#. How to validate user input usind int.TryParse() and, How to  prevent duplicate items in cart. 
+AI tools (ChatGPT) were used in the development of this project for the following:
+
+- Helped design the structure of the Shopping Cart System
+- Assisted in creating cart management features (add, remove, update items)
+- Provided guidance for implementing payment validation and change computation
+- Helped generate logic for receipt formatting and order history storage
+- Suggested improvements for input validation and menu flow
+
+All code was reviewed, tested, and modified by the developer to ensure correctness and understanding.
