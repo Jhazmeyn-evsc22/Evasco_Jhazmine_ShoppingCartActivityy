@@ -55,14 +55,34 @@ Input Validation Improvements
 ## Sample Output of the Program
 <img width="373" height="373" alt="image" src="https://github.com/user-attachments/assets/b65cc616-0c20-4edd-ae36-fdcb12290507" />
 
+##Files
+- Program.cs
+- README.md
 
 ## AI Usage
-AI tools (ChatGPT) were used in the development of this project for the following:
+During the development of this Shopping Cart System (Part 2), AI (ChatGPT) was used as a coding assistant to support the improvement, debugging, and refinement of the program.
 
-- Helped design the structure of the Shopping Cart System
-- Assisted in creating cart management features (add, remove, update items)
-- Provided guidance for implementing payment validation and change computation
-- Helped generate logic for receipt formatting and order history storage
-- Suggested improvements for input validation and menu flow
+## Prompts Given to AI
+* How to implement cart management features (view, remove, update, and clear items)
+* How to properly validate user input using `TryParse`
+* How to resolve issues with incorrect stock updates
+* How to generate receipts with date/time and receipt numbers
+* How to validate Y/N inputs until a correct response is entered
+* How to implement order history using arrays
 
-All code was reviewed, tested, and modified by the developer to ensure correctness and understanding.
+## Areas Where AI Assisted
+* Debugging stock deduction to ensure accurate inventory updates
+* Improving input validation to prevent runtime errors (e.g., invalid inputs, empty cart scenarios)
+* Structuring the cart system to avoid duplicate item handling issues
+* Enhancing the checkout process, including payment validation and change computation
+* Implementing the low stock alert feature after checkout
+* Organizing overall program flow for better readability and logical structure
+
+## Modifications Made by the Developer
+* Adjusted AI-generated code to comply with project requirements (e.g., using arrays instead of advanced data structures)
+* Modified discount logic based on assignment specifications
+* Added extra validation checks for edge cases such as empty cart and invalid selections
+* Ensured the program followed the required menu structure and flow
+* Tested and refined stock management to maintain consistency between cart operations and inventory updates
+
+All AI-generated suggestions were carefully reviewed, understood, and manually integrated into the final implementation.
