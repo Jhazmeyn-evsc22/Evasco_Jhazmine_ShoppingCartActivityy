@@ -46,6 +46,16 @@ Input Validation Improvements
 - All menu inputs are validated
 - Y/N prompts strictly enforce valid responses
 
+## How to Run
+- Open the project in Visual Studio
+- Build the solution
+- Run the program
+- Follow the console menu instructions
+
+## Sample Output of the Program
+<img width="373" height="373" alt="image" src="https://github.com/user-attachments/assets/b65cc616-0c20-4edd-ae36-fdcb12290507" />
+
+
 ## AI Usage
 AI tools (ChatGPT) were used in the development of this project for the following:
 
