@@ -1,25 +1,50 @@
 # Evasco_Jhazmine_ShoppingcartActivity
 
-## Description
-This is my simple Shopping cart console application development using C#.
-It allows user to add items, view their chart, and compute the total price.
+## Summary of Changes
 
-Hello! I'm Jhaz, a BSIT  1-1 student.
-This is my project/quiz 2-3 as a BSIT student.
+This Pull Request introduces major enhancements to the Shopping Cart System by expanding its functionality beyond basic add-to-cart features. The system now supports full cart management, checkout validation, receipt generation, and order tracking.
 
-## Features 
-- Add items to cart
+## Features Implemented
+
+Cart Management
+
 - View cart items
-- Compute total price
-- Simple and user-friendly console interface
+- Remove items from cart
+- Update item quantities
+- Clear entire cart
+- Proceed to checkout
 
-## Files
-- Program.cs
-- Flowchart
-- README.md
-- Initial commit
-- Added Validation
-- Final commit
+Product Browsing
+
+- Search products by name
+- Filter products by category (Food, Electronics, Clothing)
+
+Checkout & Payment Validation
+
+- Ensures payment input is numeric
+- Prevents insufficient payment
+- Automatically calculates change
+
+Receipt System
+
+- Generates unique receipt number (e.g., 0001)
+- Displays date and time of transaction
+- Shows purchased items and totals
+- Includes payment and change details
+
+Low Stock Alert
+
+- Displays products with stock ≤ 5 after checkout
+
+Order History
+
+- Stores completed transactions during runtime
+- Displays receipt number and final total per order
+
+Input Validation Improvements
+
+- All menu inputs are validated
+- Y/N prompts strictly enforce valid responses
 
 ## AI Usage
 AI tools (ChatGPT) were used in the development of this project for the following:
